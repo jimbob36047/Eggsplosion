@@ -16,11 +16,11 @@ public final class Main extends JavaPlugin {
         saveDefaultConfig();
         getConfig();
 
-        //
+        // makes listener work i think
         getServer().getPluginManager().registerEvents(new EggsplodeListener(this), this);
 
         // bStats stuff, idk what this stuff does
-        int pluginId = 34947;
+        int pluginId = 34947; // change this to ur own if you want to fort this plugin
         Metrics metrics = new Metrics(this, pluginId);
     }
 
