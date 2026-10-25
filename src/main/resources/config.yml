@@ -1,0 +1,14 @@
+#config file for Eggsplosion.
+
+#"true" or "false"
+enable-explosion: false
+
+#amount of power the egg should have. e.g. 4 for regular tnt size
+#to see different power levels, use https://www.minecraftmaps.com/tools/explosion-calculator
+explosion-power: 1
+
+#uuids of players who can explode eggs on use. e.g. "01234567-89ab-cdef-ghij-klmnopqrstuv"
+# to see players uuids, use https://namemc.com/ and search your, or another players, username.
+allowed-uuids:
+  - ""
+  - ""

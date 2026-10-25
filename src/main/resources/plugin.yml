@@ -1,0 +1,8 @@
+name: Eggsplosion
+version: '${version}'
+
+main: com.github.jimbob36047.eggsplosion.Main
+api-version: '26.3'
+load: STARTUP
+
+authors: [ jimbo ]
